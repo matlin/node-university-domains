@@ -1,4 +1,4 @@
-var data = require('university_domains.js');
+var data = require('./university_domains');
 module.exports = {
    find: find
 };
@@ -21,10 +21,15 @@ function find(query, attribute){
             printUsage();
             return;
          }
-         return attributeSeach(query);
+         if (typeof query !== 'string'){
+               console.error("Search parameter needs to be a string.")
+               printUsage();
+               return;
+         }
+         return attributeSearch(query, attribute);
       }else{
          if (query){
-            if (typeof query === "string"){
+            if (typeof query !== 'string'){
                console.error("Search parameter needs to be a string.")
                printUsage();
                return;
