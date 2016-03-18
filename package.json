@@ -8,10 +8,10 @@
   "private": false,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hipo/university-domains-list.git"
+    "url": "git+https://github.com/matlin/node-university-domains.git"
   },
   "bugs": {
-    "url": "https://github.com/hipo/university-domains-list/issues"
+    "url": "https://github.com/matlin/node-university-domains/issues"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

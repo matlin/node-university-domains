@@ -6,7 +6,7 @@ module.exports = {
 var attributes = ['web_page', 'country', 'domain', 'name'];
 
 function printUsage(){
-   console.log("Usage: find('your_search_query', ['web_page' || 'country' || 'domain' || 'name']"); 
+   console.log("Usage: find('your_search_query', ['web_page' || 'country' || 'domain' || 'name'])"); 
 }
 
 function find(query, attribute){
