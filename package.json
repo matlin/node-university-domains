@@ -1,10 +1,10 @@
 {
-  "name": "node-university-domains",
+  "name": "university-domains",
   "version": "1.0.0",
   "homepage": "https://github.com/matlin/node-university-domains",
   "description": "List of allowed university domains",
   "main": "university_domains_functions",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "private": false,
   "repository": {
     "type": "git",
@@ -16,6 +16,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "main": "university_domains_functions.js",
   "keywords": [
     "university",
     "emails",

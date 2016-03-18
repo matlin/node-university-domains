@@ -22,3 +22,26 @@ Example Bundle
     "name": "Sabancı University"
 }
 ```
+
+Usage
+------
+
+Add to your project:
+```bash
+npm install node-university-domains --save
+```
+Query the list of university/college domains:
+```bash
+var uniDomains = require('node-university-domains');
+
+uniDomains.find('middlebury.edu', 'domain');
+//or
+uniDomains.find('middlebury.edu');
+//returns
+/*{
+    "web_page": "http://www.middlebury.edu",
+    "country": "USA",
+    "domain": "middlebury.edu",
+    "name": "Middlebury College"
+}*/
+```
