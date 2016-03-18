@@ -1,13 +1,26 @@
 {
-  "name": "university-domains-list",
+  "name": "node-university-domains",
   "version": "1.0.0",
-  "homepage": "https://github.com/hipo/university-domains-list",
+  "homepage": "https://github.com/matlin/node-university-domains",
   "description": "List of allowed university domains",
-  "main": "world_universities_and_domains.json",
+  "main": "university_domains_functions",
   "license": "UNLICENSED",
-  "private": true,
+  "private": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/hipo/university-domains-list.git"
-  }
+    "url": "git+https://github.com/hipo/university-domains-list.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hipo/university-domains-list/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "university",
+    "emails",
+    "domains",
+    "college"
+  ],
+  "author": "Matthew Linkous <matthew.linkous@gmail.com>"
 }
